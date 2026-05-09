@@ -328,7 +328,7 @@ function App() {
     <div className="app">
       <header>
         <h1>Local Movement Tracker</h1>
-        <p>Points are stored in your browser only (IndexedDB).</p>
+        <p>Only for Fun</p>
       </header>
 
       <section className="controls">
