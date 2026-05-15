@@ -145,3 +145,56 @@ button.danger {
   flex-wrap: wrap;
   color: #ffffff;
 }
+
+.home-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-hero {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 24px;
+  padding: 40px 20px;
+}
+
+.home-tagline {
+  max-width: 420px;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #cbd5e1;
+}
+
+.home-start-btn {
+  font-size: 1.1rem;
+  padding: 14px 28px;
+}
+
+.tracking-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.tracking-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.tracking-header p {
+  margin: 4px 0 0;
+}
+
+.back-btn {
+  flex-shrink: 0;
+  background: #1f2937;
+}
+
+.map-wrap-tracking .map {
+  height: 420px;
+}
